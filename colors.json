@@ -1,11 +1,47 @@
 {
-  "euro-traffic-red": "#e93521",
-  "orange-14-01": "#f57f2e",
-  "orange-fluoro-14-11": "#f69c39",
-  "bright-yellow-15-12": "#fffc52",
-  "green-16-16": "#4d9a32",
-  "euro-sky-blue": "#3580f7",
-  "purple-07-13": "#65598c",
-  "black": "#353535",
-  "pure-white": "#f0f0f0"
+  "r": {
+    "code": "euro-traffic-red",
+    "name": "Euro traffic red",
+    "hex": "#e93521"
+  },
+  "o": {
+    "code": "orange-14-01",
+    "name": "Orange 14-01",
+    "hex": "#f57f2e"
+  },
+  "of": {
+    "code": "orange-fluoro-14-01",
+    "name": "Orange fluoro 14-11",
+    "hex": "#f69c39"
+  },
+  "y": {
+    "code": "bright-yellow-15-12",
+    "name": "Bright yellow 15-12",
+    "hex": "#fffc52"
+  },
+  "g": {
+    "code": "green-16-16",
+    "name": "Green 16-16",
+    "hex": "#4d9a32"
+  },
+  "b": {
+    "code": "euro-sky-blue",
+    "name": "Euro sky blue",
+    "hex": "#3580f7"
+  },
+  "p": {
+    "code": "purple-07-13",
+    "name": "Purple 07-13",
+    "hex": "#65598c"
+  },
+  "0": {
+    "code": "black",
+    "name": "Black",
+    "hex": "#353535"
+  },
+  "1": {
+    "code": "pure-white",
+    "name": "Pure white",
+    "hex": "#f0f0f0"
+  }
 }

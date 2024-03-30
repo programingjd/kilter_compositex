@@ -23,7 +23,7 @@
     "price": 21495,
     "url": "https://settercloset.com/products/smooth-tufa-end-teagan-knob-kxst021",
     "year": 2019,
-    "count": null
+    "count": 1
   },
   "kx159": {
     "code": "kx159",
@@ -41,7 +41,7 @@
     "url": "https://settercloset.com/products/noah-l3-jugs-kx116",
     "year": 2023,
     "family": "noah",
-    "count": null
+    "count": 5
   },
   "kx172": {
     "code": "kx172",
@@ -68,7 +68,7 @@
     "url": "https://settercloset.com/products/ditches-s1-pinches-upx85",
     "year": 2018,
     "family": "speed-bumps",
-    "count": null
+    "count": 10
   },
   "kx173": {
     "code": "kx173",
@@ -336,7 +336,7 @@
     "title": "Brushed Sandstone Medium 3 - Mini-Jugs - KX120",
     "price": 11995,
     "url": "https://settercloset.com/products/brushed-sandstone-medium-3-mini-jugs-kx120",
-    "year": null,
+    "year": 2022,
     "family": "sandstone",
     "count": 8
   },
@@ -570,7 +570,7 @@
     "title": "Noah XL 12 - Pinches - KX129",
     "price": 25295,
     "url": "https://settercloset.com/products/noah-xl-12-pinches-kx129",
-    "year": null,
+    "year": 2021,
     "family": "noah",
     "count": 5
   },
@@ -779,7 +779,7 @@
     "url": "https://settercloset.com/products/stratos-s-1-feet-upx058",
     "year": 2021,
     "family": "strato",
-    "count": null
+    "count": 15
   },
   "upx057": {
     "code": "upx057",
@@ -788,7 +788,7 @@
     "url": "https://settercloset.com/products/stratos-xs-1-feet-upx057",
     "year": 2021,
     "family": "strato",
-    "count": null
+    "count": 25
   },
   "kxpj005": {
     "code": "kxpj005",
@@ -806,7 +806,7 @@
     "url": "https://settercloset.com/products/smooth-tufa-60-end-incut-directional-hueco-kxst060",
     "year": 2021,
     "family": "tufa",
-    "count": null
+    "count": 1
   },
   "kxst054": {
     "code": "kxst054",
@@ -815,7 +815,7 @@
     "url": "https://settercloset.com/products/smooth-tufa-54-end-slopey-incut-fin-kxst054",
     "year": 2021,
     "family": "tufa",
-    "count": null
+    "count": 1
   },
   "kxst051": {
     "code": "kxst051",
@@ -824,7 +824,7 @@
     "url": "https://settercloset.com/products/smooth-tufa-51-end-incut-directional-hueco-kxst051",
     "year": 2021,
     "family": "tufa",
-    "count": null
+    "count": 1
   },
   "kx099": {
     "code": "kx099",
@@ -869,7 +869,7 @@
     "url": "https://settercloset.com/products/sandstone-2xl-7-plated-sandstone-hueco-kx104",
     "year": 2020,
     "family": "sandstone",
-    "count": null
+    "count": 1
   },
   "kx107-1": {
     "code": "kx107-1",
@@ -895,7 +895,7 @@
     "price": 18795,
     "url": "https://settercloset.com/products/smooth-tufa-52-center-incut-directional-kxst052",
     "year": 2020,
-    "count": null
+    "count": 1
   },
   "kxst061": {
     "code": "kxst061",
@@ -903,7 +903,7 @@
     "price": 19995,
     "url": "https://settercloset.com/products/smooth-tufa-61-end-incut-directional-hueco-kxst061",
     "year": 2020,
-    "count": null
+    "count": 1
   },
   "kx109": {
     "code": "kx109",
@@ -965,7 +965,7 @@
     "price": 5695,
     "url": "https://settercloset.com/products/smooth-tufa-62-center-pinch-kxst062",
     "year": 2020,
-    "count": null
+    "count": 1
   },
   "kxjw001": {
     "code": "kxjw001",
@@ -974,7 +974,7 @@
     "url": "https://settercloset.com/products/jimmys-southern-sandstone-kaiju-1-slots-kxjw001",
     "year": 2020,
     "family": "sandstone",
-    "count": null
+    "count": 3
   },
   "kx072": {
     "code": "kx072",
@@ -991,7 +991,7 @@
     "price": 15995,
     "url": "https://settercloset.com/products/smooth-tufa-36-end-rounded-horn-jug-kxst036",
     "year": 2020,
-    "count": null
+    "count": 1
   },
   "kxst050": {
     "code": "kxst050",
@@ -999,7 +999,7 @@
     "price": 9995,
     "url": "https://settercloset.com/products/smooth-tufa-50-end-slopey-directional-hueco-kxst050",
     "year": 2020,
-    "count": null
+    "count": 1
   },
   "kxst058": {
     "code": "kxst058",
@@ -1007,7 +1007,7 @@
     "price": 30795,
     "url": "https://settercloset.com/products/smooth-tufa-58-end-rounded-ball-sloper-kxst058",
     "year": 2020,
-    "count": null
+    "count": 1
   },
   "kx091": {
     "code": "kx091",
@@ -1051,7 +1051,7 @@
     "price": 8595,
     "url": "https://settercloset.com/products/smooth-tufa-48-center-slopey-ledge-kxst048",
     "year": 2019,
-    "count": null
+    "count": 1
   },
   "kxst059": {
     "code": "kxst059",
@@ -1059,7 +1059,7 @@
     "price": 16395,
     "url": "https://settercloset.com/products/smooth-tufa-59-center-slopey-rib-pinch-kxst059",
     "year": 2019,
-    "count": null
+    "count": 1
   },
   "kxst063": {
     "code": "kxst063",
@@ -1067,7 +1067,7 @@
     "price": 9095,
     "url": "https://settercloset.com/products/smooth-tufa-63-center-slopey-incut-kxst063",
     "year": 2019,
-    "count": null
+    "count": 1
   },
   "kxst056": {
     "code": "kxst056",
@@ -1075,7 +1075,7 @@
     "price": 20895,
     "url": "https://settercloset.com/products/smooth-tufa-56-end-slopey-directional-hueco-kxst056",
     "year": 2020,
-    "count": null
+    "count": 1
   },
   "kxst055": {
     "code": "kxst055",
@@ -1083,7 +1083,7 @@
     "price": 20495,
     "url": "https://settercloset.com/products/smooth-tufa-55-end-slopey-directional-hueco-kxst055",
     "year": 2019,
-    "count": null
+    "count": 1
   },
   "kx095": {
     "code": "kx095",
@@ -1092,7 +1092,7 @@
     "url": "https://settercloset.com/products/brushed-sandstone-daikaiju-1-hueco-kx095",
     "year": 2019,
     "family": "sandstone",
-    "count": null
+    "count": 1
   },
   "kxst049": {
     "code": "kxst049",
@@ -1110,7 +1110,7 @@
     "url": "https://settercloset.com/products/kxst066-smooth-tufa-companion-puffy-jug",
     "year": 2019,
     "family": "tufa",
-    "count": null
+    "count": 1
   },
   "kx094": {
     "code": "kx094",
@@ -1145,7 +1145,7 @@
     "price": 6995,
     "url": "https://settercloset.com/products/smooth-tufa-47-end-slopey-directional-hueco-kxst047",
     "year": 2019,
-    "count": null
+    "count": 1
   },
   "kxst053": {
     "code": "kxst053",
@@ -1153,7 +1153,7 @@
     "price": 6195,
     "url": "https://settercloset.com/products/smooth-tufa-53-center-slopey-jug-kxst053",
     "year": 2019,
-    "count": null
+    "count": 1
   },
   "kx073": {
     "code": "kx073",
@@ -1277,7 +1277,7 @@
     "title": "Granite XL2 - Over Jugs - KX067",
     "price": 17895,
     "url": "https://settercloset.com/products/granite-xl2-over-jugs-kx067",
-    "year": null,
+    "year": 2019,
     "family": "granite",
     "count": 5
   },
@@ -1286,7 +1286,7 @@
     "title": "Noah XL 10 - Pinches - KX066",
     "price": 23895,
     "url": "https://settercloset.com/products/noah-xl-10-pinches-kx066",
-    "year": null,
+    "year": 2019,
     "family": "noah",
     "count": 5
   },
@@ -1359,7 +1359,7 @@
     "price": 6395,
     "url": "https://settercloset.com/products/smooth-tufa-46-end-caps-cut-offs-and-mini-domes-kxst046",
     "year": 2019,
-    "count": null
+    "count": 1
   },
   "kxst045": {
     "code": "kxst045",
@@ -1367,7 +1367,7 @@
     "price": 3195,
     "url": "https://settercloset.com/products/smooth-tufa-45-angled-spacers-set-1-kxst045",
     "year": 2019,
-    "count": null
+    "count": 1
   },
   "kxst044": {
     "code": "kxst044",
@@ -1375,7 +1375,7 @@
     "price": 9595,
     "url": "https://settercloset.com/products/smooth-tufa-44-end-caps-cut-offs-kxst044",
     "year": 2019,
-    "count": null
+    "count": 1
   },
   "kxst043": {
     "code": "kxst043",
@@ -1383,7 +1383,7 @@
     "price": 8895,
     "url": "https://settercloset.com/products/smooth-tufa-43-end-caps-badgy-badges-and-2-mini-domes-kxst043",
     "year": 2019,
-    "count": null
+    "count": 1
   },
   "kxst042": {
     "code": "kxst042",
@@ -1391,7 +1391,7 @@
     "price": 8395,
     "url": "https://settercloset.com/products/smooth-tufa-42-end-caps-pointy-badges-and-2-mini-domes-kxst042",
     "year": 2019,
-    "count": null
+    "count": 1
   },
   "kxst041": {
     "code": "kxst041",
@@ -1399,7 +1399,7 @@
     "price": 8995,
     "url": "https://settercloset.com/products/smooth-tufa-41-end-caps-irregular-badges-kxst041",
     "year": 2019,
-    "count": null
+    "count": 1
   },
   "kxst040": {
     "code": "kxst040",
@@ -1407,7 +1407,7 @@
     "price": 14295,
     "url": "https://settercloset.com/products/smooth-tufa-40-end-caps-teagan-kxst040",
     "year": 2019,
-    "count": null
+    "count": 1
   },
   "kxst039": {
     "code": "kxst039",
@@ -1415,7 +1415,7 @@
     "price": 8495,
     "url": "https://settercloset.com/products/smooth-tufa-39-end-slopey-pinch-kxst039",
     "year": 2019,
-    "count": null
+    "count": 1
   },
   "kxst038": {
     "code": "kxst038",
@@ -1423,7 +1423,7 @@
     "price": 8995,
     "url": "https://settercloset.com/products/smooth-tufa-38-center-slopey-pinch-kxst038",
     "year": 2019,
-    "count": null
+    "count": 1
   },
   "kxst037": {
     "code": "kxst037",
@@ -1431,7 +1431,7 @@
     "price": 14195,
     "url": "https://settercloset.com/products/smooth-tufa-37-center-y-big-flat-directional-kxst037",
     "year": 2019,
-    "count": null
+    "count": 1
   },
   "kxst035": {
     "code": "kxst035",
@@ -1439,7 +1439,7 @@
     "price": 12995,
     "url": "https://settercloset.com/products/smooth-tufa-35-end-ball-jug-kxst035",
     "year": 2019,
-    "count": null
+    "count": 1
   },
   "kxst034": {
     "code": "kxst034",
@@ -1447,7 +1447,7 @@
     "price": 17495,
     "url": "https://settercloset.com/products/smooth-tufa-34-center-jug-kxst034",
     "year": 2020,
-    "count": null
+    "count": 1
   },
   "kxst033": {
     "code": "kxst033",
@@ -1455,7 +1455,7 @@
     "price": 17495,
     "url": "https://settercloset.com/products/smooth-tufa-33-center-jug-kxst033",
     "year": 2019,
-    "count": null
+    "count": 1
   },
   "kxst032": {
     "code": "kxst032",
@@ -1463,7 +1463,7 @@
     "price": 19195,
     "url": "https://settercloset.com/products/smooth-tufa-32-end-incut-directional-hueco-kxst032",
     "year": 2019,
-    "count": null
+    "count": 1
   },
   "kxst031": {
     "code": "kxst031",
@@ -1471,7 +1471,7 @@
     "price": 6595,
     "url": "https://settercloset.com/products/smooth-tufa-31-end-slopey-incut-directional-kxst031",
     "year": 2019,
-    "count": null
+    "count": 1
   },
   "kxst030": {
     "code": "kxst030",
@@ -1479,31 +1479,31 @@
     "price": 10295,
     "url": "https://settercloset.com/products/smooth-tufa-30-center-slopey-directional-kxst030",
     "year": 2019,
-    "count": null
+    "count": 1
   },
   "kxst029": {
     "code": "kxst029",
     "title": "Smooth Tufa 29 - End - Flat Directional Hueco - KXST029",
     "price": 12395,
     "url": "https://settercloset.com/products/smooth-tufa-29-end-flat-directional-hueco-kxst029",
-    "year": null,
-    "count": null
+    "year": 2019,
+    "count": 1
   },
   "kxst028": {
     "code": "kxst028",
     "title": "Smooth Tufa 28 - Center Y - Slopey Directional - KXST028",
     "price": 8895,
     "url": "https://settercloset.com/products/smooth-tufa-28-center-y-slopey-directional-kxst028",
-    "year": null,
-    "count": null
+    "year": 2019,
+    "count": 1
   },
   "kxst027": {
     "code": "kxst027",
     "title": "Smooth Tufa 27 - Center - Slopey Incut Directional - KXST027",
     "price": 13095,
     "url": "https://settercloset.com/products/smooth-tufa-27-center-slopey-incut-directional-kxst027",
-    "year": null,
-    "count": null
+    "year": 2019,
+    "count": 1
   },
   "kxst025": {
     "code": "kxst025",
@@ -1511,7 +1511,7 @@
     "price": 8495,
     "url": "https://settercloset.com/products/smooth-tufa-25-end-big-ball-kxst025",
     "year": 2019,
-    "count": null
+    "count": 1
   },
   "kxst024": {
     "code": "kxst024",
@@ -1519,7 +1519,7 @@
     "price": 17195,
     "url": "https://settercloset.com/products/smooth-tufa-24-junction-teagan-knob-kxst024",
     "year": 2019,
-    "count": null
+    "count": 1
   },
   "kxst023": {
     "code": "kxst023",
@@ -1527,7 +1527,7 @@
     "price": 23195,
     "url": "https://settercloset.com/products/smooth-tufa-23-center-big-incut-kxst023",
     "year": 2019,
-    "count": null
+    "count": 1
   },
   "kxst022": {
     "code": "kxst022",
@@ -1535,7 +1535,7 @@
     "price": 12795,
     "url": "https://settercloset.com/products/smooth-tufa-22-companion-incut-teagan-knob-kxst022",
     "year": 2019,
-    "count": null
+    "count": 1
   },
   "kxst020": {
     "code": "kxst020",
@@ -1543,7 +1543,7 @@
     "price": 22295,
     "url": "https://settercloset.com/products/smooth-tufa-20-end-incut-teagan-knob-kxst020",
     "year": 2019,
-    "count": null
+    "count": 1
   },
   "kxst019": {
     "code": "kxst019",
@@ -1551,71 +1551,71 @@
     "price": 19095,
     "url": "https://settercloset.com/products/smooth-tufa-19-end-incut-teagan-knob-kxst019",
     "year": 2019,
-    "count": null
+    "count": 1
   },
   "kxst018": {
     "code": "kxst018",
     "title": "Smooth Tufa 18 - End - Flat Directional Hueco (Fat Lobster Claw) - KXST018",
     "price": 12795,
     "url": "https://settercloset.com/products/smooth-tufa-18-end-flat-directional-hueco-fat-lobster-claw-kxst018",
-    "year": null,
-    "count": null
+    "year": 2019,
+    "count": 1
   },
   "kxst017": {
     "code": "kxst017",
     "title": "Smooth Tufa 17 - End - Flat Directional Hueco (Lobster Claw) - KXST017",
     "price": 6795,
     "url": "https://settercloset.com/products/smooth-tufa-17-end-flat-directional-hueco-lobster-claw-kxst017",
-    "year": null,
-    "count": null
+    "year": 2019,
+    "count": 1
   },
   "kxst016": {
     "code": "kxst016",
     "title": "Smooth Tufa 16 - End - Incut C Hueco - KXST016",
     "price": 11795,
     "url": "https://settercloset.com/products/smooth-tufa-16-end-incut-c-hueco-kxst016",
-    "year": null,
-    "count": null
+    "year": 2019,
+    "count": 1
   },
   "kxst015": {
     "code": "kxst015",
     "title": "Smooth Tufa 15 - End - Slopey Incut Hueco - KXST015",
     "price": 21195,
     "url": "https://settercloset.com/products/smooth-tufa-15-end-slopey-incut-hueco-kxst015",
-    "year": null,
-    "count": null
+    "year": 2019,
+    "count": 1
   },
   "kxst014": {
     "code": "kxst014",
     "title": "Smooth Tufa 14 - Center - Slopey/Flat Directional - KXST014",
     "price": 10795,
     "url": "https://settercloset.com/products/smooth-tufa-14-center-slopey-flat-directional-kxst014",
-    "year": null,
-    "count": null
+    "year": 2019,
+    "count": 1
   },
   "kxst013": {
     "code": "kxst013",
     "title": "Smooth Tufa 13 - Center - Slopey/Flat Directional - KXST013",
     "price": 9895,
     "url": "https://settercloset.com/products/smooth-tufa-13-center-slopey-flat-directional-kxst013",
-    "year": null,
-    "count": null
+    "year": 2019,
+    "count": 1
   },
   "kxst011": {
     "code": "kxst011",
     "title": "Smooth Tufa 11 - Center - Incut Directional - KXST011",
     "price": 9995,
     "url": "https://settercloset.com/products/smooth-tufa-11-center-incut-directional-kxst011",
-    "year": null,
-    "count": null
+    "year": 2019,
+    "count": 1
   },
   "kxst010": {
     "code": "kxst010",
     "title": "Smooth Tufa 10 - Center - Incut Directional - KXST010",
     "price": 9795,
     "url": "https://settercloset.com/products/smooth-tufa-10-center-incut-directional-kxst010",
-    "year": null,
-    "count": null
+    "year": 2019,
+    "count": 1
   },
   "kxst009": {
     "code": "kxst009",
@@ -1623,7 +1623,7 @@
     "price": 9095,
     "url": "https://settercloset.com/products/smooth-tufa-9-center-y-slopey-kxst009",
     "year": 2019,
-    "count": null
+    "count": 1
   },
   "kxst008": {
     "code": "kxst008",
@@ -1631,7 +1631,7 @@
     "price": 6695,
     "url": "https://settercloset.com/products/smooth-tufa-8-end-incut-pinch-kxst008",
     "year": 2019,
-    "count": null
+    "count": 1
   },
   "kxst007": {
     "code": "kxst007",
@@ -1639,7 +1639,7 @@
     "price": 6495,
     "url": "https://settercloset.com/products/smooth-tufa-7-end-incut-pinch-kxst007",
     "year": 2019,
-    "count": null
+    "count": 1
   },
   "kxst006": {
     "code": "kxst006",
@@ -1647,7 +1647,7 @@
     "price": 8295,
     "url": "https://settercloset.com/products/smooth-tufa-6-center-slopey-kxst006",
     "year": 2019,
-    "count": null
+    "count": 1
   },
   "kxst005": {
     "code": "kxst005",
@@ -1655,7 +1655,7 @@
     "price": 8595,
     "url": "https://settercloset.com/products/smooth-tufa-5-center-y-slopey-kxst005",
     "year": 2019,
-    "count": null
+    "count": 1
   },
   "kxst004": {
     "code": "kxst004",
@@ -1663,7 +1663,7 @@
     "price": 8695,
     "url": "https://settercloset.com/products/smooth-tufa-4-center-slopey-kxst004",
     "year": 2019,
-    "count": null
+    "count": 1
   },
   "kxst003": {
     "code": "kxst003",
@@ -1671,7 +1671,7 @@
     "price": 7095,
     "url": "https://settercloset.com/products/smooth-tufa-3-center-y-slopey-kxst003",
     "year": 2019,
-    "count": null
+    "count": 1
   },
   "kxst002": {
     "code": "kxst002",
@@ -1679,15 +1679,15 @@
     "price": 10195,
     "url": "https://settercloset.com/products/smooth-tufa-2-center-y-slopey-kxst002",
     "year": 2019,
-    "count": null
+    "count": 1
   },
   "kxst001": {
     "code": "kxst001",
     "title": "Smooth Tufa 1 - Center - Slopey - KXST001",
     "price": 8795,
     "url": "https://settercloset.com/products/smooth-tufa-1-center-slopey-kxst001",
-    "year": null,
-    "count": null
+    "year": 2019,
+    "count": 1
   },
   "kx053": {
     "code": "kx053",
@@ -1777,7 +1777,7 @@
     "url": "https://settercloset.com/products/trim-xs-1-feet-upx056",
     "year": 2018,
     "family": "trim",
-    "count": null
+    "count": 25
   },
   "upx055": {
     "code": "upx055",
@@ -1786,7 +1786,7 @@
     "url": "https://settercloset.com/products/trim-s1-crimps-upx055",
     "year": 2018,
     "family": "trim",
-    "count": null
+    "count": 10
   },
   "upx054": {
     "code": "upx054",
@@ -1813,7 +1813,7 @@
     "url": "https://settercloset.com/products/trim-l1-jugs-upx052",
     "year": 2018,
     "family": "trim",
-    "count": null
+    "count": 7
   },
   "upx051": {
     "code": "upx051",
@@ -1822,7 +1822,7 @@
     "url": "https://settercloset.com/products/trim-xl-3-edges-upx051",
     "year": 2018,
     "family": "trim",
-    "count": null
+    "count": 5
   },
   "upx050": {
     "code": "upx050",
@@ -1840,7 +1840,7 @@
     "url": "https://settercloset.com/products/trim-xl-1-jugs-upx049",
     "year": 2018,
     "family": "trim",
-    "count": null
+    "count": 5
   },
   "upx048": {
     "code": "upx048",
@@ -1849,7 +1849,7 @@
     "url": "https://settercloset.com/products/speed-bumps-xs-2-feet-upx048",
     "year": 2018,
     "family": "speed-bumps",
-    "count": null
+    "count": 25
   },
   "upx047": {
     "code": "upx047",
@@ -1858,7 +1858,7 @@
     "url": "https://settercloset.com/products/speed-bumps-xs-1-crimps-upx047",
     "year": 2018,
     "family": "speed-bumps",
-    "count": null
+    "count": 10
   },
   "upx046": {
     "code": "upx046",
@@ -1867,7 +1867,7 @@
     "url": "https://settercloset.com/products/speed-bumps-s1-pinches-upx046",
     "year": 2018,
     "family": "speed-bumps",
-    "count": null
+    "count": 10
   },
   "upx045": {
     "code": "upx045",
@@ -1876,7 +1876,7 @@
     "url": "https://settercloset.com/products/speed-bumps-m4-pinches-upx045",
     "year": 2018,
     "family": "speed-bumps",
-    "count": null
+    "count": 5
   },
   "upx044": {
     "code": "upx044",
@@ -1885,7 +1885,7 @@
     "url": "https://settercloset.com/products/speed-bumps-m3-pinches-upx044",
     "year": 2018,
     "family": "speed-bumps",
-    "count": null
+    "count": 5
   },
   "upx043": {
     "code": "upx043",
@@ -1894,7 +1894,7 @@
     "url": "https://settercloset.com/products/speed-bumps-m2-crimps-upx043",
     "year": 2018,
     "family": "speed-bumps",
-    "count": null
+    "count": 2
   },
   "upx042": {
     "code": "upx042",
@@ -1903,7 +1903,7 @@
     "url": "https://settercloset.com/products/speed-bumps-m1-crimps-upx042",
     "year": 2018,
     "family": "speed-bumps",
-    "count": null
+    "count": 3
   },
   "upx041": {
     "code": "upx041",
@@ -1912,7 +1912,7 @@
     "url": "https://settercloset.com/products/speed-bumps-l4-pinches-upx041",
     "year": 2018,
     "family": "speed-bumps",
-    "count": null
+    "count": 5
   },
   "upx040": {
     "code": "upx040",
@@ -1921,7 +1921,7 @@
     "url": "https://settercloset.com/products/speed-bumps-l3-lo-pro-upx040",
     "year": 2018,
     "family": "speed-bumps",
-    "count": null
+    "count": 3
   },
   "upx039": {
     "code": "upx039",
@@ -1930,7 +1930,7 @@
     "url": "https://settercloset.com/products/speed-bumps-l2-incuts-upx039",
     "year": 2018,
     "family": "speed-bumps",
-    "count": null
+    "count": 5
   },
   "upx038": {
     "code": "upx038",
@@ -1939,7 +1939,7 @@
     "url": "https://settercloset.com/products/speed-bumps-l1-crimps-upx038",
     "year": 2018,
     "family": "speed-bumps",
-    "count": null
+    "count": 5
   },
   "upx037": {
     "code": "upx037",
@@ -2029,7 +2029,7 @@
     "url": "https://settercloset.com/products/not-font-2xl-3-jugs-upx028",
     "year": 2018,
     "family": "not-font",
-    "count": null
+    "count": 3
   },
   "upx027": {
     "code": "upx027",
@@ -2038,7 +2038,7 @@
     "url": "https://settercloset.com/products/not-font-2xl-2-plate-slopers-upx027",
     "year": 2018,
     "family": "not-font",
-    "count": null
+    "count": 3
   },
   "upx026": {
     "code": "upx026",
@@ -2056,7 +2056,7 @@
     "url": "https://settercloset.com/products/not-font-kaiju-3-sloper-upx025",
     "year": 2018,
     "family": "not-font",
-    "count": null
+    "count": 1
   },
   "upx024": {
     "code": "upx024",
@@ -2065,7 +2065,7 @@
     "url": "https://settercloset.com/products/not-font-kaiju-2-sloper-upx024",
     "year": 2018,
     "family": "not-font",
-    "count": null
+    "count": 1
   },
   "upx023": {
     "code": "upx023",
@@ -2074,7 +2074,7 @@
     "url": "https://settercloset.com/products/not-font-kaiju-1-stalactite-upx023",
     "year": 2018,
     "family": "not-font",
-    "count": null
+    "count": 1
   },
   "upx022": {
     "code": "upx022",
@@ -2119,7 +2119,7 @@
     "url": "https://settercloset.com/products/big-brick-xl-2-slopers-upx018",
     "year": 2018,
     "family": "bricks",
-    "count": null
+    "count": 5
   },
   "upx017": {
     "code": "upx017",
@@ -2128,7 +2128,7 @@
     "url": "https://settercloset.com/products/big-brick-xl-1-2-piece-upx017",
     "year": 2018,
     "family": "bricks",
-    "count": null
+    "count": 2
   },
   "upx016": {
     "code": "upx016",
@@ -2245,7 +2245,7 @@
     "url": "https://settercloset.com/products/regs-m1-jugs-upx004",
     "year": 2018,
     "family": "regs",
-    "count": null
+    "count": 10
   },
   "upx003": {
     "code": "upx003",
@@ -2306,7 +2306,7 @@
     "title": "Noah Small 2 - Incut Ears - KX055",
     "price": 10495,
     "url": "https://settercloset.com/products/kilter-europe-noah-small-2-incut-ears-kx055",
-    "year": null,
+    "year": 2018,
     "family": "noah",
     "count": 10
   },
@@ -2371,7 +2371,7 @@
     "url": "https://settercloset.com/products/kilter-europe-sandstone-kaiju-4-5-huecos-kx049",
     "year": 2018,
     "family": "sandstone",
-    "count": null
+    "count": 2
   },
   "kx048": {
     "code": "kx048",
@@ -2632,7 +2632,7 @@
     "url": "https://settercloset.com/products/kilter-europe-sandstone-jibs-set-1-edges-and-incuts-kx027",
     "year": 2017,
     "family": "sandstone",
-    "count": null
+    "count": 10
   },
   "kx025": {
     "code": "kx025",
@@ -2668,7 +2668,7 @@
     "url": "https://settercloset.com/products/kilter-europe-granite-teagan-xl-1-pinches-kx020",
     "year": 2018,
     "family": "granite",
-    "count": null
+    "count": 4
   },
   "kx019": {
     "code": "kx019",

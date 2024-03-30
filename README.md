@@ -1,0 +1,1 @@
+http://127.0.0.1:8080/?checked-only&kxpj007=p&kxpj008=b&kx119=r&upx066=0&upx076=p&upx69=b&kx103=g&kx123=y&kx124=g&kx125=1&kx143=r&kx159=of&kx164=b&kx121=o&kx126=of&kx132=o&kx134=p&kx151=y&kx158=p&kx162=0&upx079=r&kx148=b&kxpj003=1&kx063=r&kx052=b&kx075=0&kx082=o&kxst035=b&kx046=1&kx053=y&kx013=o&kx016=g&kx025=1&kx045=p&kx050=b&kx051=0&kx059=of&kx065=y&kx076=b&kx087=g&kx160=g

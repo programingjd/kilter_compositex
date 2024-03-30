@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html translate="no" class="notranslate">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="google" content="notranslate">
 <title>Kilter</title>
 <style>
 @font-face {
@@ -44,12 +45,14 @@ fieldset{
 }
 fieldset>legend{margin-left:1em;padding:0 1em}
 fieldset>label{grid-area:title;font-size:min(4vw,1.75em);padding:.75em;font-family:__sans;text-align:center}
-fieldset>img{grid-area:img;width:100%;height:auto;cursor:pointer}
+fieldset>a{grid-area:img}
+fieldset>a>img{width:100%;height:auto}
 fieldset>input{grid-area:select;margin:1em;accent-color:#23995a}
-div[data-colors]{grid-area:color;text-align:right;display:flex;gap:.25em;display:none}
+div[data-color]{grid-area:color;text-align:right;display:flex;gap:.25em}
 div[data-count]{grid-area:count;text-align:right;padding-right:1.25em}
 div[data-price]{grid-area:price;text-align:right;padding:1em}
-div[data-color]{width:1em;height:1em;border:1px solid #888}
+div[data-color]{width:1em;height:1em;border:1px solid #888;cursor:pointer}
+fieldset:has(input:not(:checked)) div[data-color]{cursor:default;visibility:hidden}
 header{
   position:sticky;
   top:0;
@@ -57,12 +60,19 @@ header{
   background:#fff;
   border-bottom:1px solid #aaa;
   display:grid;
-  grid-template-areas: "label . count . value";
+  grid-template-areas: "label . count . value . download . open";
   grid-template-columns: auto 1fr auto;
 }
 header>label{grid-area:label}
 header>#total{grid-area:value;padding-right:1em}
 header>#count{grid-area:count;padding-right:5em}
+header>#download{grid-area:download;;padding-right:1em;color:inherit}
+header>#open{grid-area:open;padding-right:.5em;color:inherit}
+header svg{width:auto;height:100%;padding:.125em}
+.checked-only fieldset:has(input:not(:checked)){display:none}
+.checked-only fieldset input{display:none}
+.checked-only #open{display:none}
+.checked-only div[data-color]{cursor:default}
 </style>
 </head>
 <body>
@@ -70,11 +80,26 @@ header>#count{grid-area:count;padding-right:5em}
   <label for="total">Total</label>
   <div id="count">...</div>
   <div id="total">...</div>
+  <a id="download" download="order.json">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" fill="currentColor">
+      <path d="M5.5 1h1v7h-1zM1 10h10v1H1z"/>
+      <path d="m3.2 6.2.7-.7 2.8 2.8L6 9z"/>
+      <path d="M5.3 8.3 8 5.5l.7.7L6 9z"/>
+    </svg>
+  </a>
+  <a id="open" target="_blank" rel="noopener,noreferrer">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+      <path d="M4 14a2 2 0 0 1-2-2V4c0-1.1.9-2 2-2h2.5a.5.5 0 0 1 0 1H4a1 1 0 0 0-1 1v8c0 .6.4 1 1 1h8c.6 0 1-.4 1-1V9.5a.5.5 0 0 1 1 0V12a2 2 0 0 1-2 2H4Z"/>
+      <path d="M14 2v4.5a.5.5 0 0 1-1 0V3.7L8.9 8A.5.5 0 1 1 8 7l4.3-4H9.5a.5.5 0 0 1 0-1H14Z"/>
+    </svg>
+  </a>
 </header>
 <form id="order"></form>
 <script type="module">
-const inventory=await(await fetch('./inventory.json')).json();
-const colors=await(await fetch('./colors.json')).json()
+const q=new URLSearchParams(location.search);
+if(q.has('checked-only')) document.body.classList.add('checked-only');
+const inventory=await(await fetch('./sets.json')).json();
+const colors=await(await fetch('./colors.json')).json();
 const sorted=Object.fromEntries(Object.entries(inventory).sort(([k1,v1],[k2,v2])=>{
   if(v1.family===v2.family){
     return k1<k2?-1:1;
@@ -82,6 +107,8 @@ const sorted=Object.fromEntries(Object.entries(inventory).sort(([k1,v1],[k2,v2])
   else return 1;
 }));
 const form=document.querySelector('form#order');
+const download=document.querySelector('#download');
+const open=document.querySelector('#open');
 Object.entries(sorted).forEach(([code,{count,price,url,title}])=>{
   const fieldset=document.createElement('fieldset');
   const legend=document.createElement('legend');
@@ -91,29 +118,47 @@ Object.entries(sorted).forEach(([code,{count,price,url,title}])=>{
   const label=document.createElement('label');
   label.textContent=`${title.substring(0,title.indexOf('-'))}`;
   fieldset.appendChild(label);
+  const link=document.createElement('a');
+  link.rel='noopener,noreferrer';
+  link.target='_blank';
+  link.href=url;
   const image=document.createElement('img');
   image.src=`./img/${code}.webp`;
-  image.addEventListener('click',e=>{
-    e.preventDefault();
-    window.open(url,'_blank','noopener,noreferrer');
-  });
-  fieldset.appendChild(image);
+  link.appendChild(image);
+  fieldset.appendChild(link);
   const div1=document.createElement('div');
   div1.setAttribute('data-count',count);
   div1.textContent=count;
   fieldset.appendChild(div1);
   const div2=document.createElement('div');
-  div2.setAttribute('data-colors','');
+  const color=q.get(code)||'b';
+  div2.setAttribute('data-color',color);
+  div2.style.backgroundColor=colors[color].hex;
+  div2.title=colors[color].name;
   fieldset.appendChild(div2);
   const input=document.createElement('input');
   input.setAttribute('type','checkbox');
-  //input.setAttribute('checked','');
+  if(q.has(code)) input.setAttribute('checked','');
   input.setAttribute('data-quantity','1');
   fieldset.appendChild(input);
   const div3=document.createElement('div');
   div3.setAttribute('data-price',price);
   div3.textContent=`${price/100} €`;
   fieldset.appendChild(div3);
+  if(!q.has('checked-only')){
+    div2.addEventListener('click',e=>{
+      e.preventDefault();
+      if(!input.checked) return;
+      const keys=[...Object.keys(colors)];
+      const entries=[...Object.entries(colors)];
+      const i=keys.indexOf(div2.getAttribute('data-color'));
+      const color=entries[(i+1)%keys.length];
+      div2.setAttribute('data-color',color[0]);
+      div2.style.backgroundColor=color[1].hex;
+      div2.title=color[1].name;
+      form.dispatchEvent(new CustomEvent('change'));
+    });
+  }
   form.appendChild(fieldset);
 });
 for(let i=0;i<10;++i){
@@ -136,6 +181,19 @@ const update=_=>{
     return v+price*quantity;
   },0);
   total.textContent=`${price/100} €`;
+  const selected=[...document.querySelectorAll('fieldset:has(input:checked)')];
+  const json=selected.map(el=>({
+    unit_price: parseInt(el.querySelector('[data-price]').getAttribute('data-price')),
+    quantity: parseInt(el.querySelector('[data-count]').getAttribute('data-count')),
+    code: el.querySelector('.set').textContent,
+    name: el.querySelector('label').textContent,
+    url: el.querySelector('a').href,
+    color: colors[el.querySelector('[data-color]').getAttribute('data-color')].code,
+  }));
+  [...q.keys()].forEach(it=>q.delete(it));
+  selected.forEach(el=>q.set(el.querySelector('.set').textContent,el.querySelector('[data-color]').getAttribute('data-color')));
+  open.href=`?checked-only&${q.toString()}`;
+  download.href=`data:application/json;base64,${btoa(JSON.stringify(json,null,2))}`;
 };
 form.addEventListener('change',update);
 update();
